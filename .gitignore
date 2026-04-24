@@ -1,22 +1,42 @@
-# Python
-__pycache__/
-*.pyc
-
-# Env
-.env
-venv/
-.env.*
-
+# ======================
 # VS Code
+# ======================
 .vscode/
 
-# OS junk
-.DS_Store
-Thumbs.db
+# ======================
+# Environment
+# ======================
+.env
+.env.*
 
-# AppData (this one is dangerous)
-AppData*
-services/AppData*
+# ======================
+# Python
+# ======================
+__pycache__/
+*.pyc
+*.pyo
 
-# Logs
-*.log
+# ======================
+# Virtual Environment
+# ======================
+ZAD/
+venv/
+
+# ======================
+# Models & Embeddings
+# ======================
+models/
+embeddings/
+app/models/weights/
+*.bin
+*.pt
+*.pth
+
+# ======================
+# Data
+# ======================
+
+# ======================
+# Misc
+# ======================
+.pytest_cache/
